@@ -1,7 +1,7 @@
 # BrainMaskExtraction
 Removal of non-brain tissue from magnetic resonance imaging (MRI) data.
 
-Problem:
+Problem: 
 Extraction of the brain region from CTA images is often a manual and time-consuming
 process. While there are existing opensource automatic brain extraction tools, such as the Brain
 Extraction Tool (BET), these tools often face limitations when applied to CTA images. This is due to their
@@ -13,7 +13,7 @@ Image Format
 The CTA images will be named 'CaseID.nii.gz' and their respective brain masks will be 'CaseID_ROI.nii.gz'
 The brain masks will have either “0” or “1” as the intensity with “1” representing brain region.
 
-Impact:
+Impact: 
 CTA (Computed Tomography Angiography) is a medical imaging technique that combines Computed
 tomography (CT) technology with the use of contrast agents to visualize blood vessels and flow of blood
 throughout the body. MIP (Maximum Intensity Projection) images are created from CTA which will be
